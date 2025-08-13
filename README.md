@@ -58,9 +58,10 @@ Wireshark is a network analysis tool that examines traffic moving across wired a
 ---
 
 ### 5. OCSP Traffic (Observed)
-**Background Protocol**: Online Certificate Status Protocol  
-<img width="1358" height="561" alt="OSCP" src="https://github.com/user-attachments/assets/7961feb5-86bc-421f-ad96-e3bff27052b2" />
 
+<img width="1358" height="561" alt="OSCP" src="https://github.com/user-attachments/assets/7961feb5-86bc-421f-ad96-e3bff27052b2" />  
+
+**Background Protocol**: Online Certificate Status Protocol   
 **Findings**:
 - Automatic certificate validation checks to:
   - `2404:6800:4007:836...` (Google services)
@@ -77,7 +78,7 @@ Wireshark is a network analysis tool that examines traffic moving across wired a
   - Identified certificate validation via OCSP  
 
 ## Files Included
-- `capture.pcap`: Raw packet data
+- `Wireshark Network Capture.pcap`: Raw packet data
 - Screenshots: 
   - `dns_traffic.png`  
   - `http_requests.png`  
@@ -85,7 +86,6 @@ Wireshark is a network analysis tool that examines traffic moving across wired a
   - `ICMP.png`
   - `OSCP.PNG`
 
-## How to Verify
-1. Open `capture.pcap` in Wireshark
-2. Apply the same filters (e.g., `http`, `tls`)
-3. Compare with screenshots for validation
+## Conclusion
+Wireshark serves as an essential tool for network professionals, showing in-depth analysis of network communications through its packet capture and inspection capabilities. The software allows to examine network traffic in detail, identifying and troubleshooting connectivity issues while verifying proper protocol implementation.
+
