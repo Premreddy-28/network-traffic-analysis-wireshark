@@ -82,6 +82,8 @@ Wireshark is a network analysis tool that examines traffic moving across wired a
   - `dns_traffic.png`  
   - `http_requests.png`  
   - `tls_handshake.png`
+  - `ICMP.png`
+  - `OSCP.PNG`
 
 ## How to Verify
 1. Open `capture.pcap` in Wireshark
